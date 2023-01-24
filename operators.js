@@ -31,3 +31,29 @@ const estritamenteDiferente = number === 20;
 igual // igual
 estritamenteIgual // false
 
+
+let a = 5;
+let b = 10;
+
+const result1 = a === 5 && b === 6;
+result1 // false
+const result2 = a === 5 && b === 10;
+result2 // true
+const result3 = a === 5 || b === 6;
+result3 // true
+const result4 = !(a === 5)
+result4 // false
+
+
+let person = {
+  name: "sergio",
+  age: 53,
+  hasCNH: false
+}
+
+const maiority_canDrive = person.age > 18 && person.hasCNH
+
+maiority_canDrive // false
+
+
+
