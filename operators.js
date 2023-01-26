@@ -55,5 +55,17 @@ const maiority_canDrive = person.age > 18 && person.hasCNH
 
 maiority_canDrive // false
 
+// IF ternário
+let age = 18;
+
+if(age >= 18){
+  console.log("maiority");
+}else {
+  console.log("minor");
+}
+
+// if ternário
+const result = age >= 18 ? "maiority" : "minor"
+console.log(result);
 
 
